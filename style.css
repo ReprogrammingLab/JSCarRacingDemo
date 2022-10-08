@@ -1,0 +1,30 @@
+*{
+    margin:0;
+    padding:0;
+}
+body{
+    background-color: green;
+}
+.gamearea{
+    width:500px;
+    height:100vh;
+    position: relative;
+    background-color: black;
+    margin: 0px auto;
+    overflow: hidden;
+}
+.car{
+    width:70px;
+    height:100px;
+    position: absolute;
+    background: url('assets/taxi.png');
+    background-size: contain;
+    background-repeat: no-repeat;
+    left:200px;
+    bottom: 40px;
+}
+
+#gametxt{
+color: white;
+margin: 10px;
+}
