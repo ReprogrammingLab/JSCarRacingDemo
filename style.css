@@ -14,14 +14,22 @@ body{
     overflow: hidden;
 }
 .car{
-    width:70px;
-    height:100px;
+    width:90px;
+    height:120px;
     position: absolute;
     background: url('assets/taxi.png');
     background-size: contain;
     background-repeat: no-repeat;
     left:200px;
     bottom: 40px;
+}
+
+.line{
+    width: 10px;
+    height: 100px;
+    background: white;
+    margin-left: 250px;
+    position: absolute;
 }
 
 #gametxt{
